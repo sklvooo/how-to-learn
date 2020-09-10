@@ -312,22 +312,6 @@
   z-index: 3;
 }
 
-.footer__column-link-facebook {
-  position: relative;
-}
-
-.footer__column-link-facebook:before {
-  content: "";
-  background-image: url("../images/facebook_color_white.svg");
-  position: absolute;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  top: 2px;
-  left: 5px;
-  z-index: 3;
-}
-
 .footer__column-link-vk {
   position: relative;
 }
