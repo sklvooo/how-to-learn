@@ -13,7 +13,7 @@
   margin-bottom: 100px;
 }
 
-.pgae__section_kaufman {
+.kaufman {
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -36,6 +36,8 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  width: 183px;
+  height: 32px;
 }
 
 .header__square-pic {
@@ -53,15 +55,19 @@
   bottom: 0;
   right: 0;
   z-index: 2;
+  width: 765px;
+  height: 608px;
 }
 
 .header__title {
-  margin: auto 64px;
+  align-self: center;
+  margin-left: 64px;
   padding: 0;
   font-size: 102px;
   width: 730px;
   line-height: 96px;
-  font-weight: 500;
+  font-weight: 700;
+  z-index: 5;
 }
 
 .header__subtitle {
@@ -74,11 +80,13 @@
   font-weight: 400;
   padding: 0;
   margin: 0;
+  z-index: 5;
 }
 
-.header__subtitle a {
+.header__link {
   color: #2f80ed;
   text-decoration: none;
+  z-index: 5;
 }
 
 .two-columns {
@@ -112,8 +120,8 @@
   font-weight: 400;
 }
 
-.two-columns__paragraph span {
-  font-weight: 500;
+.two-columns__span-accent {
+  font-weight: 700;
 }
 
 .two-columns__paragraph:not(:last-child) {
@@ -130,7 +138,7 @@
   padding: 0;
   font-size: 60px;
   line-height: 1.15;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .section-subtitle{
@@ -163,7 +171,7 @@
   padding: 0;
   font-size: 24px;
   line-height: 1.15;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .table__text {
@@ -190,7 +198,7 @@
   padding: 0;
   width: 648px;
   font-size: 120px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
 }
@@ -219,7 +227,7 @@
 .kaufman {
   display: flex;
   flex-direction: column;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: #fff;
   position: relative;
   overflow: hidden;
@@ -236,13 +244,22 @@
   top: 0;
   right: -210px;
   z-index: 0;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
+  width: 877px;
+  height: 877px;
 }
 
 .footer {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #1f1f1f;
   display: flex;
   min-height: 250px;
+}
+
+.logo_place_footer {
+  width: 184px;
+  height: 36px;
 }
 
 .footer__columns {
@@ -272,7 +289,7 @@
   padding: 0;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .footer__column-links {
@@ -281,7 +298,7 @@
   padding: 0;
 }
 
-.footer__column-links a {
+.footer__column-link {
   color: #ffffff;
   text-decoration: none;
   margin: 0;
@@ -290,56 +307,49 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
-.footer__column_content_social a {
-  padding-left: 30px;
-}
 
-.footer__column-link-facebook {
+.footer__column-link_icon_facebook {
   position: relative;
 }
 
-.footer__column-link-facebook:before {
+.footer__column-link_icon_facebook:before {
   content: "";
   background-image: url("../images/facebook_color_white.svg");
-  position: absolute;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  top: 3px;
-  left: 5px;
   z-index: 3;
+  margin-right: 10px;
 }
 
-.footer__column-link-vk {
+.footer__column-link_icon_vk {
   position: relative;
 }
 
-.footer__column-link-vk:before {
+.footer__column-link_icon_vk:before {
   content: "";
   background-image: url("../images/vk_color_white.svg");
-  position: absolute;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  top: 2px;
-  left: 5px;
+  margin-right: 10px;
   z-index: 3;
 }
 
-.footer__column-link-instagram {
+.footer__column-link_icon_instagram {
   position: relative;
 }
 
-.footer__column-link-instagram:before {
+.footer__column-link_icon_instagram:before {
   content: "";
   background-image: url("../images/instagram_color_white.svg");
-  position: absolute;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  top: 2px;
-  left: 5px;
+  margin-right: 10px;
   z-index: 3;
 }
