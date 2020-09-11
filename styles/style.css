@@ -13,11 +13,6 @@
   margin-bottom: 100px;
 }
 
-.kaufman {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
 .page__footer {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -231,6 +226,8 @@
   color: #fff;
   position: relative;
   overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .table__cell_theme_dark {
