@@ -3,4 +3,5 @@
   flex-direction: column;
   position: relative;
   min-height: 430px;
+  margin-bottom: -50px;
 }

@@ -1,0 +1,13 @@
+.footer__column-link_icon_vk {
+  position: relative;
+}
+
+.footer__column-link_icon_vk:before {
+  content: "";
+  background-image: url("../../../../images/vk_color_white.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  z-index: 3;
+}
