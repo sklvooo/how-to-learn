@@ -78,7 +78,7 @@
 @import url('../blocks/footer/__column-link/_icon/footer__column-link_icon_facebook.css');
 @import url('../blocks/footer/__column-link/_icon/footer__column-link_icon_vk.css');
 @import url('../blocks/footer/__column-link/_icon/footer__column-link_icon_instagram.css');
-@import url('../blocks/footer/__column/__column_content_copyright/footer__column_content_copyright.css');
+@import url('../blocks/footer/__column/_content/footer__column_content_copyright.css');
 @import url('../blocks/footer/__column-heading/footer__column-heading.css');
 @import url('../blocks/footer/__author/footer__author.css');
 
